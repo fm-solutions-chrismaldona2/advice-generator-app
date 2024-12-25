@@ -5,7 +5,7 @@ The app is the solution to the [Advice Generator App challenge](https://www.fron
 
 ## Live Site
 
-[Netlify Deploy](https://www.netlify.com/)
+[Netlify Deploy](https://advicegenerator-website.netlify.app)
 
 ## Technologies Used
 
