@@ -1,0 +1,27 @@
+.button {
+  border: none;
+  padding: 1.2rem;
+  border-radius: 50%;
+  background-color: var(--neon-green);
+  cursor: pointer;
+  transition: transform 0.35s ease, box-shadow 0.35s ease-in-out,
+    background-color 0.35s ease-in-out;
+}
+
+.button__icon {
+  min-width: 0.85rem;
+  width: 1.5rem;
+  height: auto;
+}
+
+.button:active {
+  transform: scale(0.95);
+}
+
+.button:hover {
+  box-shadow: 0 0 1.75rem var(--neon-green);
+}
+
+.button:disabled {
+  background-color: var(--light-neon-green);
+}

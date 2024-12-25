@@ -1,0 +1,6 @@
+.wrapper {
+  min-height: 100dvh;
+  display: grid;
+  place-content: center;
+  grid-template-columns: min(500px, 90%);
+}
