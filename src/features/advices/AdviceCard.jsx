@@ -1,6 +1,6 @@
 import styles from "./AdviceCard.module.css";
 import DiceButton from "./components/DiceButton/DiceButton";
-import { useAdvice } from "@/hooks/useAdvice";
+import { useAdvice } from "./hooks/useAdvice";
 import { motion } from "motion/react";
 
 function AdviceCard() {

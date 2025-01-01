@@ -1,18 +1,15 @@
 import "@/styles/global.css";
 import "@/styles/variables.css";
-import "@/features/AdviceCard/AdviceCard";
-import AdviceCard from "@/features/AdviceCard/AdviceCard";
-import CenteredWrapper from "@/components/Layouts/CenteredWrapper/CenteredWrapper";
-import Footer from "@/components/Footer/Footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "@/pages/home/Home";
 
 function App() {
   return (
-    <>
-      <CenteredWrapper>
-        <AdviceCard />
-      </CenteredWrapper>
-      <Footer />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
   );
 }
 
