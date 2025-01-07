@@ -3,6 +3,15 @@
   src: url("/src/assets/fonts/Manrope-VariableFont.ttf") format("truetype");
 }
 
+:root {
+  --dark-blue: #1f2732;
+  --dark-grayish-blue: #202632;
+  --grayish-blue: #313a49;
+  --neon-green: #53ffab;
+  --light-neon-green: #9fffd1;
+  --light-cyan: #cee2e9;
+}
+
 body {
   background-color: var(--dark-blue);
   font-family: "Manrope", system-ui, -apple-system, BlinkMacSystemFont,
@@ -12,67 +21,4 @@ body {
 
 ::selection {
   background-color: #53ffac3b;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-* {
-  margin: 0;
-}
-
-body {
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-}
-
-img,
-picture,
-video,
-canvas,
-svg {
-  display: block;
-  max-width: 100%;
-}
-
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
-
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  overflow-wrap: break-word;
-}
-
-p {
-  text-wrap: pretty;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  text-wrap: balance;
-}
-
-ul,
-li {
-  padding: 0;
-}
-
-#root,
-#__next {
-  isolation: isolate;
 }
