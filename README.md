@@ -1,4 +1,4 @@
-# Adivice generator app
+# Advice generator app
 
 This is an interactive web page built with React that displays random advice.
 The app is the solution to the [Advice Generator App challenge](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db) on Frontend Mentor.
@@ -16,5 +16,7 @@ The app is the solution to the [Advice Generator App challenge](https://www.fron
 
 ## Preview
 
-![Desktop](/desktop-preview.jpg)
-![Mobile](/mobile-preview.jpg)
+<div class="grid cards" markdown>
+  <img src="/desktop-preview.jpg" width="100%">
+  <img src="/mobile-preview.jpg" width="35%">
+</div>
